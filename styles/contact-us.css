@@ -1,0 +1,156 @@
+@import url('main.css');
+
+html {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100vw;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 100%;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--white);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 15rem;
+    transition: box-shadow 0.3s ease;
+    z-index: 3;
+}
+
+nav img {
+    width: 22.1rem;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16rem;
+}
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    margin-top: 1.6rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 3.6rem;
+    text-align: center;
+        margin-bottom: 30px;
+}
+
+.thank-you {
+    font-family: 'Sofia Pro', sans-serif;
+    margin-top: 100px;
+    display: none;
+    font-size: 4rem;
+}
+
+form {
+    margin-top: 2.4rem;
+    width: 100%;
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form .inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+form .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form .inputs .row .group {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .8rem;
+}
+
+form .inputs .row .group label,
+form .inputs .group label {
+    font-family: 'Inconsolata', serif;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+form .inputs .row .group input,
+form .inputs .group.msg textarea {
+    padding: 1.6rem 1.3rem;
+    outline: 0;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: -1px 4px 15px #ECF2F6BF;
+}
+
+form .inputs .group.msg{
+    width: 100%;
+}
+
+form .inputs .group.msg textarea {
+    resize: none;
+}
+
+form .inputs .group.contact {
+    flex: 1;
+}
+
+form input[type="submit"] {
+    margin-top: 3rem;
+}
+
+.contact-circle-1 {
+    all: unset;
+    position: absolute;
+    top: 2.4rem;
+    left: 0;
+}
+
+.contact-circle-2 {
+    all: unset;
+    position: absolute;
+    bottom: -5rem;
+    left: 0;
+}
+
+.contact-circle-3 {
+    all: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.contact-circle-4 {
+    all: unset;
+    position: absolute;
+    top: 19rem;
+    right: 0;
+}

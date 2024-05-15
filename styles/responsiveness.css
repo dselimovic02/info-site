@@ -1,0 +1,506 @@
+@media screen and (min-width: 1545px) {
+    body {
+        padding-inline: 30rem;
+    }
+
+    nav {
+        padding-inline: 30rem;
+    }
+
+    .how-we-do-it {
+        margin-inline: -30rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    main img {
+        position: unset;
+        width: 100%;
+    }
+    .main-section-2 {
+        margin-top: 2rem;
+    }
+
+    br {
+        display: none;
+    }
+    .button-1,
+    .button-2,
+    .button-3,
+    .button-4,
+    input[type="submit"] {
+        padding: 10px 20px;
+    }
+    nav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    nav img {
+        width: 150px;
+    }
+    .form-background .form {
+        top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main-card {
+        text-align: center;
+    }
+    .calculator-1 {
+        width: 100vw;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding-inline: 90px;
+    }
+    h1 {
+        font-size: 3.6rem;
+    }
+    span {
+        font-size: 1.8rem;
+    }
+    .money-container span {
+        font-size: 2.4rem;
+    }
+    ul {
+        justify-content: center;
+        gap: 5px;
+    }
+    .main-section-2 p {
+        margin-inline: 20px;
+    }
+    .main-card p {
+        margin-inline: 0;
+    }
+    .how-we-do-it {
+        padding-bottom: 0;
+    }
+    .input-fields .group {
+        flex-wrap: wrap;
+    }
+    
+    #calculatorOutput .output {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .services .section-1 {
+        padding-inline: 60px;
+    }
+
+    .services .section-1 {
+        margin-top: 210px;
+    }
+
+    .services .section-1 .img-container .money-container {
+        transform: translate(-163%, -147%);
+    }
+    
+    .table .header span {
+        font-size: 12px;
+    }
+    .table .row span {
+        font-size: 10px;
+    }
+    .announcement {
+        padding-inline: 10vw;
+    }
+    .announcement p {
+        font-size: 16px;
+    }
+
+    nav {
+        padding-inline: 90px;
+        justify-content: flex-end;
+        gap: 25px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+     nav img {
+        margin-right: auto;
+     }
+    #burgerIcon {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 0;
+    }
+    .main-menu {
+        display: none;
+    }
+    .burger-menu {
+        display: none;
+        width: fit-content;
+        position: absolute;
+        bottom: -18px;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    .burger-menu .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 5px;
+    }
+    .circle-4 {
+        width: 120px;
+        top: -125px;
+    }
+    .circle-7 {
+        width: 200px;
+        bottom: -250px;
+    }
+    .how-we-do-it {
+        margin-inline: -90px;
+    }
+    .calculator-1 {
+        width: 80vw;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+    .services .section-1 .img-container {
+        width: 600px;
+        top: -160px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-inline: 50px;
+    }
+    nav {
+        padding-inline: 50px;
+    }
+    .how-we-do-it {
+        margin-inline: -50px;
+    }
+    .table .header {
+        gap: 10px;
+    }
+    .data .row span {
+        font-size: 11px;
+    }
+    .how-we-do-it .cards {
+        padding: 50px;
+    }
+    .how-we-do-it .cards {
+        width: 100%;
+    }
+    .calculator-1 {
+        margin-inline: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .circle-6 {
+        display: none;
+    }
+    body {
+        padding-inline: 0;
+        width: 100vw;
+        min-width: 100vw;
+    }
+    .how-we-do-it {
+        margin-inline: 0;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    nav {
+        padding-inline: 20px;
+    }
+    li > a {
+        font-size: 12px !important;
+    }
+    .main-section-1 {
+        margin-inline: 50px;
+        margin-top: 120px;
+    }
+    .main-cards {
+        width: 100%;
+    }
+    .increase-decrease-container {
+        width: 100%;
+        position: unset;
+    }
+    .circle-1 {
+        top: 320px;
+    }
+    .circle-5 {
+        width: 100px;
+    }
+    .main img {
+        width: 500px;
+    }
+    .main-section-2 h1#animTarget_1 {
+        margin-inline: 0 !important;
+    }
+    .img-container {
+        width: 100% !important;
+    }
+    .calculator-1 {
+        padding-inline: 20px;
+        backdrop-filter: unset;
+    }
+    .services .section-2 {
+        padding-inline: 10px;
+        border-radius: 0;
+        border: 0;
+    }
+    .table .header span:nth-child(6),
+    .table .row span:nth-child(6) {
+        display: none;
+    }
+    .services .section-1 .cards {
+        margin-top: 70%;
+    }
+    .circle-7 {
+        width: 100px;
+        bottom: -127px;
+    }
+}
+
+@media screen and (max-width: 572px ) {
+    .calculator-1 {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    
+    .calculator-1 #output,
+    .calculator-1 #output .output-fields,
+    .calculator-1 #output .output-fields .group,
+    .calculator-1 #output .output-fields .group .output,
+    .calculator-1 #output .output-fields .group .output .output-container {
+        width: 100%;
+    }
+
+    .half.left {
+        margin-left: 7%;
+    }
+    .arrow-up,
+    .arrow-down {
+        width: 41px;
+    }
+    .arrow-side {
+        width: 189px;
+        margin-bottom: 16px;
+        padding: 10px;
+    }
+    .arrow-side > span {
+        font-size: 18px;
+    }
+    .calculator-1 .input-fields .input {
+        width: 100%;
+    }
+    .calculator-1 .input-fields .input input {
+        width: 100%;
+    }
+    
+    .services .section-1 .img-container .money-container {
+        height: 120px;
+    }
+    .money-container .money::after {
+        bottom: 79px;
+    }
+
+    @keyframes move-bubble {
+        100% {
+            height: 80px;
+        }
+    }
+    
+    @keyframes move-arrow {
+        100% {
+            bottom: 43px;
+        }
+    }
+}
+
+@media screen and (max-width: 502px){
+    .services .section-1 .img-container .money-container{
+        transform: translate(-150%, -147%);
+    }
+    .services .section-1 {
+        margin-top: 191px;
+    }
+    .money-container span {
+        font-size: 20px;
+    }
+    .money-container .money::after {
+        bottom: 70px;
+    }
+    .services .section-1 .img-container .money-container {
+        height: 107px;
+    }
+    @keyframes move-profit {
+        100% {
+            bottom: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    h1,h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    nav {
+        padding-inline: 50px;
+    }
+    nav img {
+        width: 131px;
+    }
+    .button-1 {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+    .main-section-1 {
+        margin-top: 122px;
+    }
+    main p {
+        margin-top: 2rem;
+    }
+    .increase-decrease-container .half.right {
+        top: 41px;
+    }
+    .half-texts {
+        margin-left: -23px;
+    }
+    .half-texts.right {
+        width: 150px;
+    }
+    .arrow-side {
+        width: 120px;
+        margin-bottom: 28px;
+        padding: 0;
+    }
+    .arrow-side > span {
+        font-size: 13px;
+        padding: 7px 12px;
+    }
+    .half-texts .arrow-side.animate-arrow-side {
+        left: 3px;
+    }
+    #calculatorOutput .output .fields .row {
+        flex-direction: column;
+    }
+    .circle-1 {
+        width: 50px;
+        top: 130px;
+        left: -14px;
+    }
+    .circle-5 {
+        display: none;
+    }
+    .calculator-1 {
+        width: 100%;
+        border-radius: 0;
+    }
+    .services .section-1 {
+        margin-top: 152px;
+    }
+    .services .section-1 .img-container .money-container {
+        transform: translate(-141%, -147%);
+    }
+    .money-container .money::after {
+        bottom: 59px;
+    }
+    .services .section-1 .img-container .money-container {
+        height: 95px;
+    }
+    @keyframes move-profit {
+        100% {
+            bottom: 80px;
+        }
+    }
+    .table .row{
+        justify-content: center;
+        gap: 10px;
+    }
+    .table .header span:nth-child(4),
+    .table .row span:nth-child(4){
+        display: none;
+    }
+    .table .row {
+        justify-content: space-between;
+    }
+    .data .row .green {
+        background: unset;
+        border-radius: unset;
+        color: #3E9C35;
+    }
+    .how-we-do-it .cards .card {
+        flex-direction: column;
+    }
+    .how-we-do-it .cards .card .card-text {
+        text-align: center;
+    }
+    .services .title,
+    .services .subtext {
+        margin-inline: 12px;
+    }
+    .services .section-1 .img-container {
+        top: -120px;
+    }
+    .burger-menu {
+        bottom: -151px;
+    }
+    nav .burger-menu .menu {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+@media screen and (max-width: 358px) {
+    .services .section-1 .img-container .money-container {
+        width: 90px;
+        height: 79px;
+    }
+    .services .section-1 .img-container .money-container {
+        transform: translate(-143%, -147%);
+    }
+    .money-container .money::after {
+        bottom: 50px;
+        right: 9px;
+    }
+    .money-container span {
+        font-size: 17px;
+    }
+    @keyframes move-bubble {
+        100% {
+            height: 65px;
+        }
+    }
+    
+    @keyframes move-arrow {
+        100% {
+            bottom: 34px;
+        }
+    }    
+}
+
+@media screen and (max-width: 350px) {
+    .services .section-1 {
+        margin-top: 161px;
+    }
+    .table .header span:nth-child(9),
+    .table .header span:nth-child(10) {
+        display: none;
+    }
+    .table .header .abbr {
+        display: inline;
+    }
+}
